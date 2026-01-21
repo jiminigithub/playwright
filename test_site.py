@@ -1,6 +1,6 @@
 import google.genai as genai
 
-#client = genai.Client(api_key="AIzaSyDLSDV0V-0wJIiolY1gc2u3k_ym1FVPXw8")
+#client = genai.Client(api_key="")
 
 # Lista todos os modelos disponíveis
 #for m in client.models.list():
@@ -10,7 +10,7 @@ from playwright.sync_api import sync_playwright
 import google.genai as genai
 
 # Configure sua chave Gemini
-client = genai.Client(api_key="AIzaSyDLSDV0V-0wJIiolY1gc2u3k_ym1FVPXw8")  # substitua pela sua chave
+client = genai.Client(api_key="")  # substitua pela sua chave
 
 def run():
     with sync_playwright() as p:
